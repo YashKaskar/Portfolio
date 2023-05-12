@@ -4,6 +4,7 @@ import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works } from
 import StarsCanvas from './components/canvas/Stars';
 
 
+
 const App =() => {
 
   return (
@@ -12,6 +13,15 @@ const App =() => {
         <div className="bg-hero-pattern bg-cover bg-no-repeat">   
           <Navbar />
           <Hero />
+        </div>
+        <About />
+        <Experience />
+        <Tech />
+        <Works />
+        <Feedbacks />
+        <div> 
+          < Contact />
+          <StarsCanvas /> 
         </div>
       </div>
     </BrowserRouter>
