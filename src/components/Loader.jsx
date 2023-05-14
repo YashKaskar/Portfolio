@@ -1,6 +1,6 @@
 
 
-const Loader = () => {
+const CanvasLoader = () => {
   
   return (
     <div>
@@ -9,4 +9,4 @@ const Loader = () => {
   );
 };
 
-export default Loader;
+export default CanvasLoader;
