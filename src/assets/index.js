@@ -30,6 +30,13 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import shop from './shop.png';
+import lodgist from './lodgist.png';
+import ecommerce from './ecommerce.png';
+import imdb from './imdb.png';
+import paytm from './paytm.png';
+import rode from './rode.png';
+
 export {
   logo,
   backend,
@@ -59,4 +66,10 @@ export {
   carrent,
   jobit,
   tripguide,
+  shop,
+  lodgist,
+  rode,
+  paytm,
+  ecommerce,
+  imdb,
 };

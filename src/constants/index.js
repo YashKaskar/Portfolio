@@ -9,12 +9,17 @@ import {
     nodejs,
     mongodb,
     git,
-    meta,
     shopify,
     carrent,
     jobit,
     tripguide,
-    threejs,
+  threejs,
+  rode,
+  imdb,
+  paytm,
+  shop,
+  ecommerce,
+  lodgist,
   } from "../assets";
   
   export const navLinks = [
@@ -64,7 +69,7 @@ import {
       name: "JavaScript",
       icon: javascript,
     },
-
+  
     {
       name: "React JS",
       icon: reactjs,
@@ -116,37 +121,14 @@ import {
   ];
   
   const testimonials = [
-    {
-      testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
-    },
-    {
-      testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
-    },
+    
   ];
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "MERN Hotel Booking App",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Web-based project in this project i have made a booking app, that allows user to book place, advertise the place",
       tags: [
         {
           name: "react",
@@ -161,51 +143,102 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: lodgist,
+      source_code_link: "https://github.com/YashKaskar/LodgistBookingApp.git",
     },
     {
-      name: "Job IT",
+      name: "E-Commerce",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Web application that enables users to search for products, view varitey ranges of product, and can buy them",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "chec/commerce.js",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "stripe/react-stripe-js",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: ecommerce,
+      source_code_link: "https://github.com/YashKaskar/e-commerce9.git",
     },
     {
-      name: "Trip Guide",
+      name: "IMDB",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "A site where you can see latest movie upcoming movies and highrated, popular movies list with the details",
       tags: [
         {
-          name: "nextjs",
+          name: "react.js",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "firebase",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "tailwindcss",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: imdb, 
+      source_code_link: "https://github.com/YashKaskar/imdb.git",
+    },
+    {
+      name: "Paytm Clone",
+      description:
+        "Paytm front end clone, using html and tailwind css",
+      tags: [
+        {
+          name: "html",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "tailwind css",
+          color: "green-text-gradient",
+        },
+      ],
+      image: paytm,
+      source_code_link: "https://github.com/YashKaskar/Paytm-ui-clone--tailwind-css-.git",
+    },
+    {
+      name: "Shopify Clone",
+      description:
+        "Shopify front end clone, using html and tailwind css",
+      tags: [
+        {
+          name: "html",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "tailwind css",
+          color: "green-text-gradient",
+        },
+      ],
+      image: shop,
+      source_code_link: "https://github.com/YashKaskar/Shopify-ui-clone--tailwind-css-.git",
+    },
+    {
+      name: "Rode Clone",
+      description:
+        "Rode front end clone, using html and tailwind css",
+      tags: [
+        {
+          name: "html",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "tailwind css",
+          color: "green-text-gradient",
+        },
+      ],
+      image: rode,
+      source_code_link: "https://github.com/YashKaskar/Rode-ui-clone--tailwind-css-.git",
     },
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, experiences, testimonials,  projects };
