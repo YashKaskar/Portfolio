@@ -1,3 +1,4 @@
+import { color } from "framer-motion";
 import {
     backend,
     web,
@@ -141,6 +142,10 @@ import {
         {
           name: "tailwind",
           color: "pink-text-gradient",
+        },
+        {
+          name: "aws (amazon management system)",
+          color: "blue-text-gradient"
         },
       ],
       image: lodgist,
