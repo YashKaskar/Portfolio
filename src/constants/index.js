@@ -82,10 +82,6 @@ import {
       icon: mongodb,
     },
     {
-      name: "Three JS",
-      icon: threejs,
-    },
-    {
       name: "git",
       icon: git,
     },
@@ -99,10 +95,10 @@ import {
       iconBg: "#383E56",
       date: "Jan 2022 - May 2022",
       points: [
-        "• Utilized the latest software development tools, techniques, and approaches.",
-        "• Worked on internal projects with great care.",
-        "• Worked to solve complex problems using the latest Technologies such as AA360.",
-        "• Maintained up-to-date knowledge of all RPA new Technologies."
+        " Utilized the latest software development tools, techniques, and approaches.",
+        " Worked on internal projects with great care.",
+        " Worked to solve complex problems using the latest Technologies such as AA360.",
+        " Maintained up-to-date knowledge of all RPA new Technologies."
       ],
     },
     {
@@ -112,9 +108,9 @@ import {
       iconBg: "#E6DEDD",
       date: "Mar 2023 - May 2023",
       points: [
-        "• Developing the Hotel Booking from scrach",
-        "• Using Reat, Tailwind, and database MonogDb",
-        "• Learned to solve complex problem"
+        " Developing the Hotel Booking from scrach",
+        " Using Reat, Tailwind, and database MonogDb",
+        " Learned to solve complex problem"
       ],
     },
   ];
